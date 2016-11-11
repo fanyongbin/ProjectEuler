@@ -12,6 +12,8 @@ for (i in 1:n-1){
 }
 print(num)
 }
+
+# The answer
 SumMulti(1000)
 
 #========================================
@@ -28,4 +30,6 @@ SumMultiples <- function(n,x,y){
   
   return(Sum1toN((n-1) %/% x) * x + Sum1toN((n-1) %/% y) * y - Sum1toN((n-1) %/% (x*y)) * (x*y))
 }
+
+# The answer
 SumMultiples(1000)
