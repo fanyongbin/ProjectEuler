@@ -1,4 +1,6 @@
+#========================================
 # Basic answer use loop
+#========================================
 SumMulti <- function(n,x,y){
 num <- 0
 for (i in 1:n-1){
@@ -12,7 +14,9 @@ print(num)
 }
 SumMulti(1000)
 
-# Better answer user Inclusion–exclusion principle 
+#========================================
+# Better answer use Inclusion–exclusion principle 
+#========================================
 # Compute the sum of natural numbers below n
 Sum1toN <- function(n){
   
